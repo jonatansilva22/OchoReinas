@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+}
+
+.container {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid;
+  margin: auto;
+}
+
+tr {
+  border: 1px solid;
+  height: 50px; /* Reducir la altura de las filas */
+}
+
+tr:nth-child(even) td:nth-child(even),
+tr:nth-child(odd) td:nth-child(odd) {
+  background: #000000;
+}
+
+tr:nth-child(odd) td:nth-child(even),
+tr:nth-child(even) td:nth-child(odd) {
+  background: #FFFFFF;
+}
+
+td {
+  border: 1px solid;
+  width: 50px; /* Reducir el ancho de las celdas */
+}
+
+button {
+  position: absolute;
+  bottom: 60px;
+  right: 200px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+
+
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 90%;
+  left: 50px; /* Ajusta la distancia desde el borde derecho según sea necesario */
+  transform: translateY(-50%);
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+
+
+
+
+  

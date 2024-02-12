@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="./js/funciones.js"></script>
+</head>
+
+  <body>
+    <h1 id="titulo">Ocho Reinas</h1>
+    
+    <table border="1" id="tabla">
+      <tr>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+      </tr>
+
+      <tr>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+      </tr>
+
+      <tr>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+      </tr>
+
+      <tr>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+      </tr>
+
+      <tr>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+      </tr>
+
+      <tr>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+      </tr>
+
+      <tr>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+      </tr>
+
+      <tr>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+        <td onclick="colocarReina(this)"></td>
+      </tr>
+    </table>
+
+    <div>
+      <button onclick="limpiarTablero()">Reiniciar Tablero</button>
+    </div>
+    
+    <div class="info-container">
+      <label for="" id="reinasColoca">Reinas por colocar: 8 <br></label>
+      <label for="" id="reinasColoca1">Reinas colocadas: 0<br></label>
+      <label for="colorSelector">Selecciona un color:</label>
+    <select id="colorSelector" onchange="limpiarTablero()">
+      <option value="#ff0000">Rojo</option>
+      <option value="#00ff00">Verde</option>
+      <option value="#0000ff">Azul</option>
+    </div>
+    
+  </body>
+</html>
